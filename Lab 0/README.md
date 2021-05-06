@@ -12,11 +12,15 @@ I found this step very tedious and long but I hope it will be worth it in the lo
 
  Here are some images
 
-| The resistor carboad | The capacitor cardboard |
+| The resistor cardboad | The capacitor cardboard |
 | --- | --- |
 | ![Resistors](Images/Resistors.jpg) | ![Capacitors](Images/Capacitors.jpg) |
 
 ## Prepare wire stripper
+
+This step was fairly hard as well. It took me quite a few iterations to get the right diameter. The next time I do it I should start by using wire as reference and very carefully adjust it. I ended up succeding and this is my current configuration.
+
+![Wire Stripper](Images/Strip.jpg)
 
 ## Prepare Signal Generator
 ### Step 1
