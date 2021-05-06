@@ -45,16 +45,53 @@ Plot
 #### 2.5kHz signal
 The signal seems to be offseted from the GND which is a bit weird. I did measure the maximum and minimum with the oscilloscope and obtained **2.40V** and **0.82V** respectivetly which leaves with a pk-to-pk Voltage of **1.58V** which is close enough to 1.65V. I then measure in the DC setting using the multimter and obtained **1.64V** which must be the largest positive voltage value measured. The AC measurement is **0.48V** and I am unsure what it represents. I though it could have been the RMS but it isnt.
 
+Image
+
 #### 100kHz signal
 Using the oscilloscope I measured as minimum voltage **0.89V** the maximum **2.31V** and the pk-to-pk **1.42V** which is pretty far off from 1.65V. The DC measurement was again **1.64V** and the AC one decreased to **0.119V** which makes me think that the AC measurements are frequency dependent.
+
+Image
 
 ### Task 8: Measure PWN signal
 
 The time period of the signal was **120us** which gave a frequency of **8.3kHz**. The duty cycle I think is the ratio between the duration of the positive square voltage part and the 0 region. My aproximated duty cycle was **5/12** which approximates to **42%** which is pretty close to the signal gen values. The multimeter DC measurement was **1.3V** which I think it is also involved with the duty cycle. 3.3V  is the max voltage output of the ESP32 time 0.4 goes to 1.32V which is roughly what I haved. I think this is true I confimed it by changing the duty cycle and measuring the DC voltage again.
 
+Image
+
 ### Task 9: Measure Exponential signal
 
+I measured the time constant from the time it took to go from 0V to the maximum flat V which resulted to be **1ms** but I am confused with the m% TC setting. The frequency seemed to be right though about **50Hz**. **UPDATE** I was measuring the time constant wrong I instead use the equation V = Vc*(1-exp(-t/tau)) on the challenge which worked way better. I will update this section after using this.
 
+Image
 
 ### Task 10: UART signal
+
+#### Hashtag
+I am guessing the information is being encoded into some sort of binary method I am not sure at all. With an even parity. With the odd parity the pattern remains with three peaks but different size and pattern. The no parity seems very simillar to the odd parity one. I think they are just different ways to encode the same information.
+
+Table
+
+#### ABC
+The peaks have changed shape, there are still 3 and follow the same pattern as the Hashtag ones.
+They just have different distributions which I am guessing are different types of encoding it.
+
+Table
+
 ### Task 11: Test yourself on the unknown signals
+
+#### Signal 1
+Seems to be a constant DC voltage of around **2.47V** 
+
+#### Signal 2
+This one seemed to be a sine wave with a minimum voltage of **1.74V** and maximum voltage of **2.13V**. It has a period of **88us** hence a frequency of around **11.4kHz**. The peak to peak voltage is **0.39V**.
+
+#### Signal 3
+This one seems to be a PWN signal with a time period of **74us** the positive voltage region seems to be **40us** long therefore a duty cycle of around **54%**. The frequency is around **13.51kHz**.
+
+#### Signal 4
+This signal seemed to be a square wave with a time period of **200us** the positive volate region seems to be **170us** long therefore a duty cycle of around **85%**. The frequency is around **5kHz**.
+
+#### Signal 5
+I finally figured out how to measure the time constant during this exercise I used the expression V = Vc*(1-exp(-t/tau)), picked some random point on the graph and read the voltage and the time taken since V = 0. I also know that Vc is around 3.2V although it should be 3.3V. This signal was an exponential signal with a time period of **5.6ms** and a frequency of **179Hz** and a time constant of **0.276ms**.
+
+#### Signal 6
