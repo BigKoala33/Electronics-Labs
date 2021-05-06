@@ -1,7 +1,7 @@
 # Electronics 1-Lab 0
 
 <p align="center">
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Yellow-blue-circuit-MEng-EE.jpg" width="500" height="250">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Yellow-blue-circuit-MEng-EE.jpg" width="900" height="350">
 </p>
 
 This folder contains all the documents regarding the zeroth lab.
