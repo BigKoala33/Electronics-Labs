@@ -12,8 +12,8 @@ I found this step very tedious and long but I hope it will be worth it in the lo
 
  Here are some images
 
-|The resistor carboad |The capacitor cardboard |
---- | --- | ---
+| The resistor carboad | The capacitor cardboard |
+| --- | --- | --- |
 |![Resistors](Images/Resistors.jpg)|![Capacitors](Images/Capacitors.jpg)|
 ## Prepare wire stripper
 
