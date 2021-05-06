@@ -18,9 +18,10 @@ I found this step very tedious and long but I hope it will be worth it in the lo
 
 ## Prepare wire stripper
 
-<p align="center">
 This step was fairly hard as well. It took me quite a few iterations to get the right diameter. The next time I do it I should start by using wire as reference and very carefully adjust it. I ended up succeding and this is my current configuration.
-    <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%200/Images/Strip.jpg" width="250" height="250">
+
+<p align="center">
+    <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%200/Images/Strip.jpg" width="500" height="500">
 </p>
 
 ## Prepare Signal Generator
