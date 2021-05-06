@@ -2,9 +2,9 @@
 
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Yellow-blue-circuit-MEng-EE.jpg" width="500" height="250">
 
-This github repository contains all the work done regarding the lab 1.
+This folder contains all the documents regarding the first lab.
 
-I have never used GitHub like this before so I hope it doesn't look ***too bad***.
+This lab is called Signals and Scope and it consists on understanding how to use the signal generator and the oscilloscope.
 
 ### Task 1: Learning to control the signal generator
 ### Task 2: Setting up the Oscilloscope
