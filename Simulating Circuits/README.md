@@ -1,6 +1,6 @@
 # How to simulate circuits on the browser
 
-The platform is called CircuitLab.com
+The platform is called CircuitLab.com https://www.circuitlab.com/
 
 You can edit voltages and currents. Add all sort of components etc...
 
