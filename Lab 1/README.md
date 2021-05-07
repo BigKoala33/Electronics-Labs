@@ -46,7 +46,11 @@ Measuring the 2.5V with the oscilloscope returned a voltage of **~2.43V** and th
 | **Measured Voltage Osc (V)** | 2.90 | 2.43 | 1.94 | 1.46 | 1.01 | 0.55 |
 | **Measured Voltage Mult (V)** | 2.88 | 2.43 | 1.97 | 1.47 | 1.02 | 0.55 |
 
-Plot
+| Voltage setting against Measured Voltage |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Plot.png" width="450" height="500"> |
+
+**Linear model: Vr = 0.9391*V + 0.074**
 
 ### Task 7: Measure sine wave signal
 
