@@ -80,20 +80,26 @@ The time period of the signal was **120us** which gave a frequency of **8.3kHz**
 
 I measured the time constant from the time it took to go from 0V to the maximum flat V which resulted to be **1ms** but I am confused with the m% TC setting. The frequency seemed to be right though about **50Hz**. **UPDATE** I was measuring the time constant wrong I instead use the equation V = Vc*(1-exp(-t/tau)) on the challenge which worked way better. I will update this section after using this.
 
-Image
+| Oscilloscope measuring Exponential signal |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/exp.jpg" width="450" height="500"> |
 
 ### Task 10: UART signal
 
 #### Hashtag
 I am guessing the information is being encoded into some sort of binary method I am not sure at all. With an even parity. With the odd parity the pattern remains with three peaks but different size and pattern. The no parity seems very simillar to the odd parity one. I think they are just different ways to encode the same information.
 
-Table
+| Hash UART Signal (even parity) |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Hash.jpg" width="450" height="500"> |
 
 #### ABC
 The peaks have changed shape, there are still 3 and follow the same pattern as the Hashtag ones.
 They just have different distributions which I am guessing are different types of encoding it.
 
-Table
+| ABC UART Signal (even parity) |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/ABC.jpg" width="450" height="500"> |
 
 ### Task 11: Test yourself on the unknown signals
 
@@ -133,3 +139,7 @@ I finally figured out how to measure the time constant during this exercise I us
 | <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Uexp.jpg" width="450" height="500"> |
 
 #### Signal 6
+
+| Unknown Signal 6 |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/U6.jpg" width="450" height="500"> |
