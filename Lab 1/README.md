@@ -114,8 +114,16 @@ This one seemed to be a sine wave with a minimum voltage of **1.74V** and maximu
 #### Signal 3
 This one seems to be a PWN signal with a time period of **74us** the positive voltage region seems to be **40us** long therefore a duty cycle of around **54%**. The frequency is around **13.51kHz**.
 
+| Unknown Signal 3 |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Uclock.jpg" width="450" height="500"> |
+
 #### Signal 4
 This signal seemed to be a square wave with a time period of **200us** the positive volate region seems to be **170us** long therefore a duty cycle of around **85%**. The frequency is around **5kHz**.
+
+| Unknown Signal 4 |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/UPwn.jpg" width="450" height="500"> |
 
 #### Signal 5
 I finally figured out how to measure the time constant during this exercise I used the expression V = Vc*(1-exp(-t/tau)), picked some random point on the graph and read the voltage and the time taken since V = 0. I also know that Vc is around 3.2V although it should be 3.3V. This signal was an exponential signal with a time period of **5.6ms** and a frequency of **179Hz** and a time constant of **0.276ms**.
