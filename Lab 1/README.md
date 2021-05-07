@@ -62,7 +62,7 @@ The signal seems to be offseted from the GND which is a bit weird. I did measure
 | <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/lasine.jpg" width="450" height="500"> |
 
 #### 100kHz signal
-Using the oscilloscope I measured as minimum voltage **0.89V** the maximum **2.31V** and the pk-to-pk **1.42V** which is pretty far off from 1.65V. The DC measurement was again **1.64V** and the AC one decreased to **0.119V** which makes me think that the AC measurements are frequency dependent.
+Using the oscilloscope I measured as minimum voltage **0.89V** the maximum **2.31V** and the pk-to-pk **1.42V** which is pretty far off from 1.65V. The DC measurement was again **1.64V** and the AC one decreased to **0.119V** which looks quite wrong.
 
 | Oscilloscope measuring sine wave signal 100kHz |
 | --- |
@@ -78,7 +78,7 @@ The time period of the signal was **120us** which gave a frequency of **8.3kHz**
 
 ### Task 9: Measure Exponential signal
 
-I measured the time constant from the time it took to go from 0V to the maximum flat V which resulted to be **1ms** but I am confused with the m% TC setting. The frequency seemed to be right though about **50Hz**. **UPDATE** I was measuring the time constant wrong I instead use the equation V = Vc*(1-exp(-t/tau)) on the challenge which worked way better. I will update this section after using this.
+I measured the time constant from the time it took to go from 0V to the maximum flat V which resulted to be **1ms** but I am confused with the m% TC setting. The frequency seemed to be right though about **50Hz**. **UPDATE** I was measuring the time constant wrong I instead use the equation V = Vc*(1-exp(-t/tau)) on the challenge which worked way better. I will update this section after using this. I tried this again and I obtained a time constant of **0.89ms** which I guess it close to 1ms but in the challenge it went better.
 
 | Oscilloscope measuring Exponential signal |
 | --- |
@@ -139,6 +139,8 @@ I finally figured out how to measure the time constant during this exercise I us
 | <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Uexp.jpg" width="450" height="500"> |
 
 #### Signal 6
+
+At the time of the lab I had no idea how to do this, I will try do some research on decoding this UART signal but for now I will finalise this lab here.
 
 | Unknown Signal 6 |
 | --- |
