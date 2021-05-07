@@ -72,7 +72,9 @@ Using the oscilloscope I measured as minimum voltage **0.89V** the maximum **2.3
 
 The time period of the signal was **120us** which gave a frequency of **8.3kHz**. The duty cycle I think is the ratio between the duration of the positive square voltage part and the 0 region. My aproximated duty cycle was **5/12** which approximates to **42%** which is pretty close to the signal gen values. The multimeter DC measurement was **1.3V** which I think it is also involved with the duty cycle. 3.3V  is the max voltage output of the ESP32 time 0.4 goes to 1.32V which is roughly what I haved. I think this is true I confimed it by changing the duty cycle and measuring the DC voltage again.
 
-Image
+| Oscilloscope measuring PWN signal |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Pwn.jpg" width="450" height="500"> |
 
 ### Task 9: Measure Exponential signal
 
@@ -98,8 +100,16 @@ Table
 #### Signal 1
 Seems to be a constant DC voltage of around **2.47V** 
 
+| Unknown Signal 1 |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Ucon.jpg" width="450" height="500"> |
+
 #### Signal 2
 This one seemed to be a sine wave with a minimum voltage of **1.74V** and maximum voltage of **2.13V**. It has a period of **88us** hence a frequency of around **11.4kHz**. The peak to peak voltage is **0.39V**.
+
+| Unknown Signal 2 |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/US.jpg" width="450" height="500"> |
 
 #### Signal 3
 This one seems to be a PWN signal with a time period of **74us** the positive voltage region seems to be **40us** long therefore a duty cycle of around **54%**. The frequency is around **13.51kHz**.
@@ -109,5 +119,9 @@ This signal seemed to be a square wave with a time period of **200us** the posit
 
 #### Signal 5
 I finally figured out how to measure the time constant during this exercise I used the expression V = Vc*(1-exp(-t/tau)), picked some random point on the graph and read the voltage and the time taken since V = 0. I also know that Vc is around 3.2V although it should be 3.3V. This signal was an exponential signal with a time period of **5.6ms** and a frequency of **179Hz** and a time constant of **0.276ms**.
+
+| Unknown Signal 5 |
+| --- |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Uexp.jpg" width="450" height="500"> |
 
 #### Signal 6
