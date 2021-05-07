@@ -36,6 +36,10 @@ When the trigger level is outside the signal appears to be moving, when it is in
 
 Measuring the 2.5V with the oscilloscope returned a voltage of **~2.43V** and the multimeter measured **2.43V** too which means that both pieces of equipment are accurate and fairly precise.
 
+| Oscilloscope measuring DC voltage |
+| --- |
+| ![DC Voltage](Images/Dcv.jpg) |
+
 Table
 
 Plot
@@ -43,7 +47,7 @@ Plot
 ### Task 7: Measure sine wave signal
 
 #### 2.5kHz signal
-The signal seems to be offseted from the GND which is a bit weird. I did measure the maximum and minimum with the oscilloscope and obtained **2.40V** and **0.82V** respectivetly which leaves with a pk-to-pk Voltage of **1.58V** which is close enough to 1.65V. I then measure in the DC setting using the multimter and obtained **1.64V** which must be the largest positive voltage value measured. The AC measurement is **0.48V** and I am unsure what it represents. I though it could have been the RMS but it isnt.
+The signal seems to be offseted from the GND which is a bit weird. I did measure the maximum and minimum with the oscilloscope and obtained **2.40V** and **0.82V** respectivetly which leaves with a pk-to-pk Voltage of **1.58V** which is close enough to 1.65V. I then measure in the DC setting using the multimter and obtained **1.64V** which must be the largest positive voltage value measured. The AC measurement is **0.55V** and I am unsure what it represents. After thinking about it and doing some research I concluded that it was the rms which should be around 0.56V which it indeed was.
 
 Image
 
