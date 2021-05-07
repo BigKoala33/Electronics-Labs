@@ -48,7 +48,7 @@ Measuring the 2.5V with the oscilloscope returned a voltage of **~2.43V** and th
 
 | Voltage setting against Measured Voltage |
 | --- |
-| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Plot.png" width="450" height="500"> |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Plot.png" width="600" height="500"> |
 
 **Linear model: Vr = 0.9391*V + 0.074**
 
