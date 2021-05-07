@@ -41,7 +41,7 @@ Measuring the 2.5V with the oscilloscope returned a voltage of **~2.43V** and th
 | <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Dcv.jpg" width="450" height="500"> |
 
 | Voltage and measured voltages |
-| --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | **Voltage Setting (V)** | 3.0 | 2.5 | 2.0 | 1.5 | 1.0 | 0.5 |
 | **Measured Voltage Osc (V)** | 2.90 | 2.43 | 1.94 | 1.46 | 1.01 | 0.55 |
 | **Measured Voltage Mult (V)** | 2.88 | 2.43 | 1.97 | 1.47 | 1.02 | 0.55 |
