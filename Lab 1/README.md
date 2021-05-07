@@ -38,7 +38,7 @@ Measuring the 2.5V with the oscilloscope returned a voltage of **~2.43V** and th
 
 | Oscilloscope measuring DC voltage |
 | --- |
-| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Dcv.jpg" width="250" height="250"> |
+| <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Dcv.jpg" width="500" height="500"> |
 
 Table
 
