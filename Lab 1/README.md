@@ -87,7 +87,7 @@ I measured the time constant from the time it took to go from 0V to the maximum 
 ### Task 10: UART signal
 
 #### Hashtag
-I am guessing the information is being encoded into some sort of binary method I am not sure at all. With an even parity. With the odd parity the pattern remains with three peaks but different size and pattern. The no parity seems very simillar to the odd parity one. I think they are just different ways to encode the same information.
+I am guessing the information is being encoded into some sort of binary method I am not sure at all. With an even parity. With the odd parity the pattern remains with three peaks but different size and pattern. The no parity seems very simillar to the odd parity one. I think they are just different ways to encode the same information. **UPDATE** I went back and decoded this one I was very happy to decode it.
 
 | Hash UART Signal (even parity) |
 | --- |
@@ -140,7 +140,11 @@ I finally figured out how to measure the time constant during this exercise I us
 
 #### Signal 6
 
-At the time of the lab I had no idea how to do this, I will try do some research on decoding this UART signal but for now I will finalise this lab here.
+At the time of the lab I had no idea how to do this, I will try do some research on decoding this UART signal but for now I will finalise this lab here. **UPDATE** After the thursday tutorial I was able to decode the 6th Signal. It said **Hello!** Which doesn't match the answer sheet. The signal has an odd parity and a 9600b/s.
+
+I decoded it on this sequence. I tried to find recognisible sequences of bits to not loose track of position. Another tip is to look also when the start bit is continued by more 0 bits. Do not try to look for a 101 sequence. Be methodical and everytime there is a down bit start counting the data bits. Try to identify parity as well and use it to ensure you are reading the right part of the signal. (Always look for parity bit if there is one). I am very happy I managed to do this.
+
+01101111 = o, 00100001 = !, 01001000 = H, 01100101 = e, 01101100 = l, 01101100 = l.
 
 | Unknown Signal 6 |
 | --- |
