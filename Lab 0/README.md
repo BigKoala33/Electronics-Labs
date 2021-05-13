@@ -27,13 +27,8 @@ This step was fairly hard as well. It took me quite a few iterations to get the 
 </p>
 
 ## Prepare Signal Generator
-### Step 1
-### Step 2
-### Step 3
-### Step 4
-### Step 5
-### Step 6
-### Step 7
-### Step 8
-### Step 9
-### Step 10
+Setting up the signal generator was fine. I didn't use as much tape and the image I used from the email Peter sent was not very clear but. But the new sheet is way better with schematics. Overall it was pretty easy and I started playing a bit with the signal generator and the oscilloscope.
+
+<p align="center">
+    <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%200/Images/sig_gen.jpg" width="500" height="100">
+</p>
