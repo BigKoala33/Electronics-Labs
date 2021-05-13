@@ -30,5 +30,5 @@ This step was fairly hard as well. It took me quite a few iterations to get the 
 Setting up the signal generator was fine. I didn't use as much tape and the image I used from the email Peter sent was not very clear but. But the new sheet is way better with schematics. Overall it was pretty easy and I started playing a bit with the signal generator and the oscilloscope.
 
 <p align="center">
-    <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%200/Images/sig_gen.jpg" width="500" height="100">
+    <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%200/Images/sig_gen.jpg" width="600" height="250">
 </p>
