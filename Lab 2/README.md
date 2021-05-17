@@ -36,7 +36,7 @@ Image
 For 69 ohms here is the table
 
 | Vs (measured) | Voltage out (V) | Current out (mA) | Internal Resistance (Ohm) |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | 3.0 | 1.93 | 28.00 | 38.25 |
 | 2.0 | 1.7 | 24.70 | 12.18 |
 | 1.0 | 0.93 | 11.76 | 5.19 |
