@@ -45,3 +45,16 @@ Resistance might vary with current & voltage. It might not be constant. Perhaps 
 
 
 ## Task 3 - Voltage Divider Circuit
+
+The first measurement should be 1.5V, perhaps a bit less. It is a potential divider circuit and the resistances are the same therefore they equally share the potential difference. I measured **1.46V** which is close enough considering internal resistance. This is what it looked like:
+
+Image
+
+
+I did the calculations using the the potential divider equation, I obtained a voltage of around 2.0625V and my measured value was **2.01V**.
+
+Image
+
+I was not quite sure waht they wanted here so I used the potential divider equation based on ohms law to make an expresion for Vout.
+
+$\frac{R2}{R1+R2}Vs = V$
