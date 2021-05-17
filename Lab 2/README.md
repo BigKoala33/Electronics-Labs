@@ -55,6 +55,33 @@ I did the calculations using the the potential divider equation, I obtained a vo
 
 Image
 
-I was not quite sure waht they wanted here so I used the potential divider equation based on ohms law to make an expresion for Vout.
+I was not quite sure waht they wanted here so I used the potential divider equation based on ohms law to make an expresion for Vout. Vout = Vs*(R2/R(R1+R2))
 
-$\frac{R2}{R1+R2}Vs = V$
+For DC I measured a vs of 1.6V and estimated it should be around 1.1V using the potential divider equation, I measured a potential difference of **1.08V** which proves that it works. With AC I measured a VS of 1.03V and estimated around 0.71V which I then measured and obtained **0.7V**. Confirming that the potential divider equations hold for sine waves in terms of AC and DC.
+
+Image?
+
+## Task 4 - Thevenin's Equivalent Network
+
+I started by drawing the following circuit:
+
+Image
+
+I then did KCL on the middle node to obtain the following expression: (3-V)/(10000) + I = V/22000
+
+Which rearranged to make V the subject makes:
+V = 6875*I + 33/16
+
+Therefore the Thevenin equivalent network consists of a **6875 ohm resistor** and a **2.0625V voltage supply**.
+
+Image of thevenin equivalent network
+
+The Vth measured voltage turned out to be **2.03V**, which is pretty close to predicted one. I don't get what Why is asking here. I guess the whole network can be simplified to its Thevenins equivalents.
+
+I measured a potential difference across Vout of **1.19V**, I then applied the potential dividers equation using the Thevenin voltage and found that R was **7059 ohms**. Which is arguably close to the predicted 6875 ohms.
+
+## Task 5 - Complex Resistor Network 
+
+In order to make the 20k ohm resistor, I used a parallel combination of a 22k ohm and a 220k ohm resistor. This yielded exactly 20 k ohms.
+
+After performing nodal analysis on the circuit. I worked out the values of V1 and V2 which resulted on **1V and 0.5V** respectively. I then measured these values nad obtained **0.98V and 0.48**
