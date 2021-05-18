@@ -84,4 +84,79 @@ I measured a potential difference across Vout of **1.19V**, I then applied the p
 
 In order to make the 20k ohm resistor, I used a parallel combination of a 22k ohm and a 220k ohm resistor. This yielded exactly 20 k ohms.
 
-After performing nodal analysis on the circuit. I worked out the values of V1 and V2 which resulted on **1V and 0.5V** respectively. I then measured these values nad obtained **0.98V and 0.48**
+After performing nodal analysis on the circuit. I worked out the values of V1 and V2 which resulted on **1V and 0.5V** respectively. I then measured these values nad obtained **0.98V and 0.48V**. So they pretty much matched the theoretical values.
+
+I didn't have another 10K resistor, so I improvised a 10K resistor using 2 4.7k ohm resistors and a 470 ohm resistors this resulted on a resistance of **9.64k ohms** which is relatively close to 10K
+I found that V2 was a third of V1 and V3 a half of V2.
+**V1 = 0.94V, V2 = 0.36V V3 = 0.19V**.
+
+## Task 6 - Driving a Light Emitting Diode
+
+The minimum voltage below the LED conducts was found to be: **2.28V**. I am not sure why it is a bad idea to use a DC source. Perhaps its harder to generate or to mantain. It could cause the LED to heat too much.
+
+It's easier for digital systems to produce this types of waves. Modify a DC voltage source is much harder for a digital system.
+
+I am not quite sure about this last bit but I think, the higher the frequency the more "steps" it has for a given luminosity. There values are mapped over a wider range?
+
+
+## Task 7 - RC circuit and exponential signal
+
+Vout was found to be 3.32V, in theory RC is 1e-4 seconds.
+
+The signal is exactly the same because the time constant is the same = 1e-4 seconds.
+
+## Task 8 - RC circuit as a lowpass filter
+My pk-to-pk voltage was 1.6V.
+
+REDO
+
+| Frequency (Hz) | Ratio(Vs/Vou) |
+| --- | --- |
+| 100 | 1.00 |
+| 1k | 1.00 |
+| 5k | 0.94 |
+| 10k | 0.935 |
+| 20k | 0.935 |
+| 30k | 0.93 |
+| 40k | 0.93 |
+| 50k | 0.93 |
+| 60k | 0.93 |
+| 70k | 0.93 |
+| 80k | 0.93 |
+| 90k | 0.92 |
+| 100k | 0.92 |
+
+## Task 9 - PWN signal and lowpass filter
+
+The output of the RC circuit with the 10k ohm resistor and the 0.01uF capacitor was **1.6V**.
+
+Vout remained the same for 10kHz and 100kHz. Surprisingly with PWN waves, the frequency does not affect the output voltage/gain. This might be because there is no AC part to the signal it is done via Vout or 0. Not Vout and -Vout. Whereas with sinousodial signals, the lowpass filter attenuates the higher frequencies. This effect is not observed here and that might be the cause.
+
+Changing the duty cycle did affect the Vout but I think it has to do with the signal itself, rather than the filter at all. I explained this on Lab 1. The duty cycle affects Vout, for example a signal with a Vout of 3.24V at a 100% duty cycle will produce a signal of Vout 0.324 with a duty cycle of 10%. There is some sort of linear relathionship.
+
+| Duty Cyle (%) | Vout (V) |
+| --- | --- |
+| 0 | 0 |
+| 10 | 0.31 |
+| 20 | 0.64 |
+| 30 | 0.96 |
+| 40 | 1.29 |
+| 50 | 1.61 |
+| 60 | 1.95 |
+| 70 | 2.27 |
+| 80 | 2.60 |
+| 90 | 2.92 |
+| 100 | 3.24 |
+
+Plot
+
+
+## Task 10 - CR circuit and DC block property
+
+It is a very weird signal, which oscillates slightly. I estimated a Vout of around **3.3V** perhaps a bit more.
+
+Image
+
+The signal is producing some backwards and forwards currents, there is no offset DC voltage on top of it. It's just the signal like that.
+
+Need to do this.
