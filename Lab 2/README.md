@@ -25,7 +25,7 @@ This task was pretty normal. There were no issues whatsoever these are my result
 
 This task required me to make a 69 ohm resistor, I made a parallel combination of a 100 and 220 ohm resistors, 100 || 220 = **68.75** which is resonably good. This is what it looks like:
 
-Image
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%200/Images/Task2.jpg" width="600" height="250">
 
 | Vs (measured) | Vs Setting | 10k | 1k | 100 | 69 |
 | --- | --- | --- | --- | --- | --- |
@@ -102,29 +102,33 @@ I am not quite sure about this last bit but I think, the higher the frequency th
 ## Task 7 - RC circuit and exponential signal
 
 Vout was found to be 3.32V, in theory RC is 1e-4 seconds.
-
+Using the rise to calculate the time constant I obtained **1.2e-4seconds**, with the fall I got **1e-4seconds**.
 The signal is exactly the same because the time constant is the same = 1e-4 seconds.
 
 ## Task 8 - RC circuit as a lowpass filter
 My pk-to-pk voltage was 1.6V.
 
-REDO
+My ratio is going up.
 
-| Frequency (Hz) | Ratio(Vs/Vou) |
+| Frequency (Hz) | Ratio(Vout/Vs) |
 | --- | --- |
 | 100 | 1.00 |
-| 1k | 1.00 |
-| 5k | 0.94 |
-| 10k | 0.935 |
-| 20k | 0.935 |
-| 30k | 0.93 |
-| 40k | 0.93 |
-| 50k | 0.93 |
-| 60k | 0.93 |
-| 70k | 0.93 |
-| 80k | 0.93 |
-| 90k | 0.92 |
-| 100k | 0.92 |
+| 1k | 0.83 |
+| 2k | 0.56 |
+| 3k | 0.37 |
+| 4k | 0.25 |
+| 5k | 0.17 |
+| 6k | 0.11 |
+| 7k | 0.06 |
+| 8k | 0.03 |
+| 9k | 0.01 |
+| 10k | 0 |
+
+Plot
+
+My corner frequency was 10kHz
+
+It just bounces.
 
 ## Task 9 - PWN signal and lowpass filter
 
