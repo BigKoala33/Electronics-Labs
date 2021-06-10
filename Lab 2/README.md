@@ -25,7 +25,7 @@ This task was pretty normal. There were no issues whatsoever these are my result
 
 This task required me to make a 69 ohm resistor, I made a parallel combination of a 100 and 220 ohm resistors, 100 || 220 = **68.75** which is resonably good. This is what it looks like:
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Task2.jpg" width="600" height="250">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Task2.jpg" width="900" height="250">
 
 | Vs (measured) | Vs Setting | 10k | 1k | 100 | 69 |
 | --- | --- | --- | --- | --- | --- |
