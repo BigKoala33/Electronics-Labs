@@ -24,6 +24,7 @@ Remember to put the resistors to not burn the LEDs lol, all the comands work fin
 
 ### Button working
 The button worked perfectly fine using the sample code, here is some pictures showing that when I clicked it it would go to 0 and unclicked 1.
+
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/buton.jpg" width="300" height="300">
 
 ### Controlling LEDs
