@@ -9,8 +9,19 @@ This lab is called Operational Amplifiers. It consists on understanding and usin
 ## Task 1 - Loadin effect on analogue output of SIG_GEN (pin 26)
 
 First my pk-to-pk was **1.58V**, with the resistor is then **1.21V**.
+
+#### Pk-to-Pk without Resistor
+
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/FirstPK.jpg" width="150" height="350">
+
+#### Pk-to-Pk with resistor
+
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/ResPk.jpg" width="150" height="350">
+
 ## Task 2 - Unity Gain Amplifier
+
 ### Step 1 - Install the chip and 0.1uF decoupling capacitor
+
 Took me so long because I plugged it into 3.3V rather than 5V. It should be easy though.
 
 ### Step 2 - Build a unity gain non-inverting buffer
