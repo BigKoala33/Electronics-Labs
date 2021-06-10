@@ -4,12 +4,15 @@
 
 This folder contains all the documents regarding the fourth-B lab.
 
-This sdasdad
+This lab is called ESP32, Sensors and Drivers it consists on using sensors and drivers using micropython.
 
 
 ## Task 1 - Digital Outputs
 
 Remember to put the resistors to not burn the LEDs lol, all the comands work fine. **Close REPL if you want to access files**, Everything worked flawlessly here are some pictures.
+
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/redon.jpg" width="250" height="500">
+
 
 
 ## Task 2 - Digital Input and switch debouncing
