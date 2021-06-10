@@ -97,8 +97,23 @@ I just modified the previous task script to alter the duty cycle of the servo wi
 
 ### Using DC motor
 I don't really get how they work I guess lowering one and increasing the other one maximises the speed, the speed must be given by the difference between them? I tried using the previous script to make a velocity adjuster using the encoder but it did the oposite I found that around 350 duty it won't run so I changed the limits to 350 to 1023. Then as I moved down, towards 350 it got faster and slower towards 1023, so I am a bit confused but it does work fine.
+
+#### DC motor and Drivers
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/DCMotor.jpg" width="350" height="300">
 
 ## Task 7 - Neopixel strip
 
-I understand this one quite well, it does make sense and it's cool that you can control each pixel individually. I did some extra experimenting with the documentation I found a cool effect one and modified it slightly. 
+### Using Neopixel strip
+I understand this one quite well, it does make sense and it's cool that you can control each pixel individually. I did some extra experimenting with the documentation I found a cool effect one and modified it slightly.
+
+#### Lab Code
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/LabCode.jpg" width="300" height="300">
+
+#### Experiment 1
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/Exp1.jpg" width="300" height="300">
+
+#### Experiment 2
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/Exp2.jpg" width="300" height="300">
+
+#### Experiment 3
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/Exp3.jpg" width="300" height="300">
