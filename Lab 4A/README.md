@@ -22,7 +22,7 @@ Image
 
 The installation went well. When the file button is grey just restart the software
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/MU.png" width="400" height="300">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/MU.png" width="500" height="300">
 
 ## Task 3 - Erase and Flash MicroPython onto your ESP32
 ### Step 1
@@ -50,7 +50,7 @@ I found the writing loops very uncomfortbale on the REPL but it worked fine usin
  https://docs.micropython.org/en/latest/esp8266/tutorial/pwm.html
 
 
- <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/pulsa.png" width="300" height="50">
+ <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/pulsa.png" width="600" height="100">
 
  ## Task 5 - Running Python scripts from files
  ### Step 1 - Create your uPy code files
