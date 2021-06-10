@@ -16,11 +16,10 @@ The yellow LED did not turn on but the device appeared under the Ports section.
 ### Step 1 - Check your Python installation
 
 I had to use py --version but it worked fine 
-Image
 
 ### Step 2 - Installing the Mu-Editor
 
-The installation went well. When the file button is grey just restart the software
+The installation went well.
 
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/MU.png" width="500" height="300">
 
