@@ -11,7 +11,11 @@ This lab is called ESP32, Sensors and Drivers it consists on using sensors and d
 
 Remember to put the resistors to not burn the LEDs lol, all the comands work fine. **Close REPL if you want to access files**, Everything worked flawlessly here are some pictures.
 
+### Red LED on
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/redon.jpg" width="300" height="400">
+
+### Both LEDs on
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/bothon.jpg" width="300" height="400">
 
 
 
