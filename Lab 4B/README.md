@@ -78,8 +78,20 @@ I did the optinal bit using the magnet of the speaker, the sensor of the esp32 i
 
 ## Task 5 - Servo Motor
 
-I installed it on pin 18 rather than 23 because 23 was being used for the rotary encoder. I then found that the lower extreme of my servo is 19 and the max 125. It can be seen on the images the range of 180 degrees. I just modified the previous task script to alter the duty cycle of the servo with val_new. OF course after initialising it as a PWM object.
+### Adjusting and trying servo motor
+I installed it on pin 18 rather than 23 because 23 was being used for the rotary encoder. I then found that the lower extreme of my servo is 19 and the max 125. It can be seen on the images the range of 180 degrees.
 
+### Modifying script
+I just modified the previous task script to alter the duty cycle of the servo with val_new. OF course after initialising it as a PWM object.
+
+#### Min Servo
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/MinServo.jpg" width="300" height="300">
+
+#### Mid Servo
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/MidServo.jpg" width="300" height="300">
+
+#### Max Servo
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/MaxServo.jpg" width="300" height="300">
 
 ## Task 6 - DC motor and the H-bridge motor driver
 
