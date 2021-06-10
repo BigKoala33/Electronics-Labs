@@ -59,7 +59,11 @@ I controlled the luminosity of the LED by changing the max and min values to 0 a
 
 ## Task 4 - Analogue Input and the Analogue to Digital Converter
 
-It was good, the range of the potentiometer goes from 0 to 511 due to the 9-bit.  The 3.3V and the GND don't matter to what Pin are conncted because its just a sort of potential divider, switching them would just flip the voltage. 
+### Digital reading of the Potentiometer
+It was good, the range of the potentiometer goes from 0 to 511 due to the 9-bit.  The 3.3V and the GND don't matter to what Pin are conncted because its just a sort of potential divider, switching them would just flip the voltage.
+
+#### Potentiometer Read
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/PotRead.jpg" width="300" height="400">
 
 I did the optinal bit using the magnet of the speaker, the sensor of the esp32 is horrible. It keeps fluctuating all the time, for my script all I did was initialise the LED, which I used the green one. I then used 120 as a threshold value but because it keeps fluctuating it is fairly unreliable. If the reading of the hall sensor is greater than 120 turn the LED on. otherswise off, with a sleep of 200ms.
 
