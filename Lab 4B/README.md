@@ -46,8 +46,16 @@ The bounce effect is very noticiable, it registers 2 clicks rather than one. The
 
 ## Task 3 - Rotary switch for control
 
-I first couldn't find the the packages for this and spend a while on a silly code error using "from time" rather than "import time". Apart from that everything went well, I controlled the luminosity of the LED by changing the max and min values to 0 and 1023, I initialised the LEDS like in previous tasks, then I just adjusted the duty cycle according to the val_new. It worked good, but I would like to increase the step of each spin. Its tedious to go from 0 all the way to 1023. I did this by adding +5 to val_new all the time.
+I first couldn't find the the packages for this and spend a while on a silly code error using "from time" rather than "import time". Apart from that everything went well. 
 
+### Modified script
+I controlled the luminosity of the LED by changing the max and min values to 0 and 1023, I initialised the LEDS like in previous tasks, then I just adjusted the duty cycle according to the val_new. It worked good, but I would like to increase the step of each spin. Its tedious to go from 0 all the way to 1023. I did this by adding +5 to val_new all the time.
+
+#### Low brightness
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/LowBright.jpg" width="300" height="300">
+
+#### Zero Brightness
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/0Bright.jpg" width="300" height="300">
 
 ## Task 4 - Analogue Input and the Analogue to Digital Converter
 
