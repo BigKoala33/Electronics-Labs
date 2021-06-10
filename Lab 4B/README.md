@@ -62,6 +62,8 @@ I controlled the luminosity of the LED by changing the max and min values to 0 a
 ### Digital reading of the Potentiometer
 It was good, the range of the potentiometer goes from 0 to 511 due to the 9-bit.  The 3.3V and the GND don't matter to what Pin are conncted because its just a sort of potential divider, switching them would just flip the voltage.
 
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/Pot.jpg" width="300" height="350">
+
 #### Potentiometer Read
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/PotRead.jpg" width="300" height="350">
 
