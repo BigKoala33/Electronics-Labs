@@ -15,7 +15,7 @@ Remember to put the resistors to not burn the LEDs lol, all the comands work fin
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/redon.jpg" width="300" height="400">
 
 ### Both LEDs on
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/bothon.jpg" width="300" height="400">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/bothon.jpg" width="300" height="300">
 
 
 
