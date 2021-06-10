@@ -22,6 +22,8 @@ Image
 
 The installation went well. When the file button is grey just restart the software
 
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/MU.png" width="400" height="300">
+
 ## Task 3 - Erase and Flash MicroPython onto your ESP32
 ### Step 1
 The firmware has to be done only once. It worked COM5
@@ -29,26 +31,35 @@ The firmware has to be done only once. It worked COM5
 ### Step 2 - Verify MicrPython is installed properly
 It worked fine
 
-### Step 3 - Controlling white LED
-It did blink on and off
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/HelloW.png" width="300" height="350">
 
-Images
+### Step 3 - Controlling white LED
+It did blink on and off, pretty nice
+
+import machine
+LED = machine.Pin(X, Pin.OUT)
+
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/WhiteLED.jpg" width="300" height="350">
 
 ### Step 4 - Blinking the LED
-I found the writing loops very uncomfortbale on that environment but it worked fine using control C.
+I found the writing loops very uncomfortbale on the REPL but it worked fine using control C.
 
 ## Task 4 - Explore wht are included in MicroPython
- I did the challenge found some code on the documentation 
+ I did the challenge found some code on the documentation, its important to deinitialise PWM pins before using them in anything else specially on the REPL environment
+
  https://docs.micropython.org/en/latest/esp8266/tutorial/pwm.html
+
+
+ <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/pulsa.png" width="300" height="350">
 
  ## Task 5 - Running Python scripts from files
  ### Step 1 - Create your uPy code files
  I find it weird that there is no file tab to open and create new files but it was pretty easy, I had to change the code slightly define the LED separetly importing Pin from machine.
 
 ### Step 2 - Flash your program to ESP32 internal flash drive
-The files icon gets grey sometimes just restart the IDE quickly, control D is to reset but it can also be clicked manually
+The files icon gets grey sometimes just restart the IDE quickly, control D is to reset but it can also be clicked manually. **UPDATE** Just close the REPL and you can access the files, give it 2 seconds each time or it won't like it.
 
 ### Step 3 - “Hello world!” on the OLED display
 Make sure to import all the modules in, including the font and the oled. It then worked good
 
-Image
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/Hello.jpg" width="300" height="350">
