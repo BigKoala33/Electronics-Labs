@@ -31,7 +31,7 @@ The firmware has to be done only once. It worked COM5
 ### Step 2 - Verify MicrPython is installed properly
 It worked fine
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/HelloW.png" width="300" height="350">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/HelloW.png" width="500" height="400">
 
 ### Step 3 - Controlling white LED
 It did blink on and off, pretty nice
@@ -39,7 +39,7 @@ It did blink on and off, pretty nice
 import machine
 LED = machine.Pin(X, Pin.OUT)
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/WhiteLED.jpg" width="300" height="350">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/WhiteLED.jpg" width="300" height="300">
 
 ### Step 4 - Blinking the LED
 I found the writing loops very uncomfortbale on the REPL but it worked fine using control C.
@@ -50,7 +50,7 @@ I found the writing loops very uncomfortbale on the REPL but it worked fine usin
  https://docs.micropython.org/en/latest/esp8266/tutorial/pwm.html
 
 
- <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/pulsa.png" width="300" height="350">
+ <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/pulsa.png" width="300" height="150">
 
  ## Task 5 - Running Python scripts from files
  ### Step 1 - Create your uPy code files
