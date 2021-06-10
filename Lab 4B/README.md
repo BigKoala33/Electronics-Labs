@@ -9,34 +9,38 @@ This lab is called ESP32, Sensors and Drivers it consists on using sensors and d
 
 ## Task 1 - Digital Outputs
 
+### Getting LEDs on
 Remember to put the resistors to not burn the LEDs lol, all the comands work fine. **Close REPL if you want to access files**, Everything worked flawlessly here are some pictures.
 
-### Red LED on
+#### Red LED on
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/redon.jpg" width="300" height="400">
 
-### Both LEDs on
+#### Both LEDs on
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/bothon.jpg" width="300" height="300">
 
 
 
 ## Task 2 - Digital Input and switch debouncing
-The button worked perfectly fine using the sample code, here is some pictures showing that when I clicked it it would go to 0 and unclicked 1.
+
 ### Button working
+The button worked perfectly fine using the sample code, here is some pictures showing that when I clicked it it would go to 0 and unclicked 1.
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/buton.jpg" width="300" height="300">
 
+### Controlling LEDs
 The control of the LED with the SW button is pretty impressive very quick response.
 I wrote my script so it would turn the the red on and the green off and viceversa. It worked fine
-### Controlling LEDs - Switch pressed
+#### Controlling LEDs - Switch pressed
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/ButonRed.jpg" width="300" height="300">
 
-### Controlling LEDs - Switch released
+#### Controlling LEDs - Switch released
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/ButonGreen.jpg" width="300" height="300">
 
 
+### Bounce Effect
+
 The bounce effect is very noticiable, it registers 2 clicks rather than one. The capacitor kind of quantifies the clicks rather than leaving them as an imperfect analog signal.
 
-### Bounce Effect
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/Bounce.jpg" width="600" height="300">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/Bounce.jpg" width="600" height="200">
 
 
 ## Task 3 - Rotary switch for control
