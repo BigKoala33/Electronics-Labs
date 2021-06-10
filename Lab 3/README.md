@@ -75,7 +75,7 @@ My gain seems to be a bit more, around **127**, I got a voltage of 1.98V.
 
 #### Microphone setup
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/Micro.jpg" width="300" height="350">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/Micro.jpg" width="250" height="350">
 
 I used a tunning fork app with different frequencies and this was the result
 
