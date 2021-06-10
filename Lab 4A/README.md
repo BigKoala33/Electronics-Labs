@@ -31,7 +31,7 @@ The firmware has to be done only once. It worked COM5
 ### Step 2 - Verify MicrPython is installed properly
 It worked fine
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/HelloW.png" width="300" height="150">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/HelloW.png" width="400" height="150">
 
 ### Step 3 - Controlling white LED
 It did blink on and off, pretty nice
@@ -50,7 +50,7 @@ I found the writing loops very uncomfortbale on the REPL but it worked fine usin
  https://docs.micropython.org/en/latest/esp8266/tutorial/pwm.html
 
 
- <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/pulsa.png" width="300" height="90">
+ <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204A/images/pulsa.png" width="300" height="50">
 
  ## Task 5 - Running Python scripts from files
  ### Step 1 - Create your uPy code files
