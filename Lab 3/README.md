@@ -12,11 +12,11 @@ First my pk-to-pk was **1.58V**, with the resistor is then **1.21V**.
 
 #### Pk-to-Pk without Resistor
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/FirstPK.jpg" width="150" height="350">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/FirstPK.jpg" width="250" height="350">
 
 #### Pk-to-Pk with resistor
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/ResPk.jpg" width="150" height="350">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/ResPk.jpg" width="250" height="350">
 
 ## Task 2 - Unity Gain Amplifier
 
