@@ -71,7 +71,7 @@ I couldn't really verify that it was an inverting amplifier because of all the n
 
 ## Task 7 - Amplify a microphone signal
 
-My gain seems to be a bit more, around **127**
+My gain seems to be a bit more, around **127**, I got a voltage of 1.98V.
 
 #### Microphone setup
 
