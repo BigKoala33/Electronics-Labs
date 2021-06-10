@@ -36,7 +36,7 @@ I wrote my script so it would turn the the red on and the green off and vicevers
 The bounce effect is very noticiable, it registers 2 clicks rather than one. The capacitor kind of quantifies the clicks rather than leaving them as an imperfect analog signal.
 
 ### Bounce Effect
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/ButonGreen.jpg" width="600" height="300">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/Bounce.jpg" width="600" height="300">
 
 
 ## Task 3 - Rotary switch for control
