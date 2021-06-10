@@ -20,10 +20,18 @@ Remember to put the resistors to not burn the LEDs lol, all the comands work fin
 
 
 ## Task 2 - Digital Input and switch debouncing
+The button worked perfectly fine using the sample code, here is some pictures showing that when I clicked it it would go to 0 and unclicked 1.
+### Button working
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/buton.jpg" width="300" height="300">
 
 The control of the LED with the SW button is pretty impressive very quick response.
-
 I wrote my script so it would turn the the red on and the green off and viceversa. It worked fine
+### Controlling LEDs - Switch pressed
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/ButonRed.jpg" width="300" height="300">
+
+### Controlling LEDs - Switch released
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/ButonGreen.jpg" width="300" height="300">
+
 
 The bounce effect is very noticiable, it registers 2 clicks rather than one. The capacitor kind of quantifies the clicks rather than leaving them as an imperfect analog signal.
 
