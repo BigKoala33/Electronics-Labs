@@ -65,7 +65,14 @@ It was good, the range of the potentiometer goes from 0 to 511 due to the 9-bit.
 #### Potentiometer Read
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/PotRead.jpg" width="300" height="350">
 
-I did the optinal bit using the magnet of the speaker, the sensor of the esp32 is horrible. It keeps fluctuating all the time, for my script all I did was initialise the LED, which I used the green one. I then used 120 as a threshold value but because it keeps fluctuating it is fairly unreliable. If the reading of the hall sensor is greater than 120 turn the LED on. otherswise off, with a sleep of 200ms.
+### Optional step + 4
+I did the optinal bit using the magnet of the speaker, the sensor of the esp32 is horrible. It keeps fluctuating all the time, for my script all I did was initialise the LED, which I used the green one. I then used 120 as a threshold value but because it keeps fluctuating it is fairly unreliable. If the reading of the hall sensor is greater than 120 turn the LED on. otherswise off, with a sleep of 200ms. The Red LED is on because I didn't initialise it as an LED. I didn't work too well If I am honest.
+
+#### Magnet Far away
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/FarMagnet.jpg" width="300" height="300">
+
+#### Magnet Close
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/CloseMagnet.jpg" width="300" height="300">
 
 ## Task 5 - Servo Motor
 
