@@ -70,12 +70,12 @@ V01 looks nice and smooth, whereas Vo2 looks weird and noisy, I even tried using
 I couldn't really verify that it was an inverting amplifier because of all the noise, the PWM signal looked like pure noise where as the sine looked alright.
 
 ## Task 7 - Amplify a microphone signal
-
+### Step 1
 My gain seems to be a bit more, around **127**, I got a voltage of 1.98V.
-
+### Step 2
 #### Microphone setup
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/Micro.jpg" width="250" height="350">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/Micro.jpg" width="350" height="350">
 
 I used a tunning fork app with different frequencies and this was the result
 
