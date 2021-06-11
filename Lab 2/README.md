@@ -25,7 +25,9 @@ This task was pretty normal. There were no issues whatsoever these are my result
 
 This task required me to make a 69 ohm resistor, I made a parallel combination of a 100 and 220 ohm resistors, 100 || 220 = **68.75** which is resonably good. This is what it looks like:
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Task2.jpg" width="1500" height="400">
+#### Combination for 69
+
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/R1.jpg" width="300" height="300">
 
 | Vs (measured) | Vs Setting | 10k | 1k | 100 | 69 |
 | --- | --- | --- | --- | --- | --- |
@@ -107,8 +109,6 @@ The signal is exactly the same because the time constant is the same = 1e-4 seco
 
 ## Task 8 - RC circuit as a lowpass filter
 My pk-to-pk voltage was 1.6V.
-
-My ratio is going up.
 
 | Frequency (Hz) | Ratio(Vout/Vs) |
 | --- | --- |
