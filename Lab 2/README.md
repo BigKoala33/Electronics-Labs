@@ -161,7 +161,7 @@ Changing the duty cycle did affect the Vout but I think it has to do with the si
 | 90 | 2.92 |
 | 100 | 3.24 |
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/duty.png" width="300" height="300">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Duty.jpg" width="300" height="300">
 
 
 ## Task 10 - CR circuit and DC block property
