@@ -66,7 +66,7 @@ For DC I measured a vs of 1.6V and estimated it should be around 1.1V using the 
 
 I started by drawing the following circuit:
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Circuit.jpg" width="300" height="300">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Circuit.jpg" width="300" height="250">
 
 I then did KCL on the middle node to obtain the following expression: (3-V)/(10000) + I = V/22000
 
@@ -75,7 +75,7 @@ V = 6875*I + 33/16
 
 Therefore the Thevenin equivalent network consists of a **6875 ohm resistor** and a **2.0625V voltage supply**.
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Th.jpg" width="300" height="300">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Th.jpg" width="300" height="250">
 
 The Vth measured voltage turned out to be **2.03V**, which is pretty close to predicted one. I don't get what Why is asking here. I guess the whole network can be simplified to its Thevenins equivalents.
 
