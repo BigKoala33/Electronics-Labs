@@ -86,3 +86,12 @@ I used a tunning fork app with different frequencies and this was the result
 It was very loud and fun.
 
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%203/images/speaker.jpg" width="300" height="350"> 
+
+
+## Learning Outcomes
+ - I understand the purpose of unity gain amplifiers.
+ - I can design and test non-inverting amplifiers using opamps
+ - I understand the purpose of AC coupling.
+ - I know how to bias an AC coupled amplifier.
+ - I understand the GBP of an op-amp.
+ - I undertsand the purpose of two stage amplification, ampliying real life signals and for a speaker too.

@@ -173,3 +173,13 @@ It is a very weird signal, which oscillates slightly. I estimated a Vout of arou
 The signal is producing some backwards and forwards currents, there is no offset DC voltage on top of it. It's just the signal like that.
 
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Weid2.jpg" width="300" height="300">
+
+## Learning Outcomes
+ - I can use voltage divider circuits.
+ - I can workout and understand Th eq circuits.
+ - I understand the effect of loading on a signal source, can be used to find Rs.
+ - I can do Nodal analysis to predict voltages across nodes.
+ - I understand RC circuits and can work measuring time constants.
+ - I understand about trading off R with C in a RC circuit and know what a frequency response of a low pass filter looks like
+ - I know what decibels are and their relation to Voltage ratio measurements.
+ - I understand the concept of time constant and it's relationship to the corner frequency.

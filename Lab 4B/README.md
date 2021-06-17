@@ -118,3 +118,11 @@ I understand this one quite well, it does make sense and it's cool that you can 
 
 #### Experiment 3
 <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%204B/images/Exp3.jpg" width="300" height="300">
+
+## Learning Outcomes
+ - I can use mycropython
+ - I can use digital and analog pins
+ - I can use PWM signals to drive DC motors and servos.
+ - I can use hall effect sensors and neopixel led strips.
+ - I understand how rotary encoders work.
+ - I can use the OLED display and have an understanding of the microcontroller software.

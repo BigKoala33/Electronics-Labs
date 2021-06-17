@@ -149,3 +149,10 @@ I decoded it on this sequence. I tried to find recognisible sequences of bits to
 | Unknown Signal 6 |
 | --- |
 | <img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/U6.jpg" width="450" height="500"> |
+
+## Learning Outcomes
+ - I did manage to use measure AC and DC voltages using the oscilloscope and the multimeter.
+ - I did manage to measure time and adjust time axis on the oscilloscope.
+ - I managed to make relative measurements and use the trigger mechanism.
+ - I used to scope to measure different signals.
+ - I managed to decode the UART signals.
