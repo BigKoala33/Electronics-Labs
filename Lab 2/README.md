@@ -75,7 +75,7 @@ V = 6875*I + 33/16
 
 Therefore the Thevenin equivalent network consists of a **6875 ohm resistor** and a **2.0625V voltage supply**.
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Th.jpg" width="300" height="250">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Th.jpg" width="300" height="200">
 
 The Vth measured voltage turned out to be **2.03V**, which is pretty close to predicted one. I don't get what Why is asking here. I guess the whole network can be simplified to its Thevenins equivalents.
 
@@ -131,7 +131,7 @@ My pk-to-pk voltage was 1.6V.
 | 9k | 0.01 |
 | 10k | 0 |
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Lowpassfilter.jpg" width="300" height="300">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/Lowpassfilter.png" width="300" height="300">
 
 ### Corner freq
 My corner frequency was 10kHz
@@ -161,7 +161,7 @@ Changing the duty cycle did affect the Vout but I think it has to do with the si
 | 90 | 2.92 |
 | 100 | 3.24 |
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/duty.jpg" width="300" height="300">
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%202/Images/duty.png" width="300" height="300">
 
 
 ## Task 10 - CR circuit and DC block property
