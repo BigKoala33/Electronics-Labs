@@ -21,7 +21,7 @@ end
 
 The code was tested creating a wave of 400 Hz with amplitude of 1 and a sampling frequency of 10kHz over 1 second. Then the plot function was created and plotted the amplitude from the indexes 1 to 200 even though there is 10000 samples.
 
-<img src="images/Ex1.png">
+<img src="images/Ex1.png" width="50%">
 
 ## Exercise 2: Spectrum of the signal
 
@@ -42,7 +42,7 @@ end
 
 There is a reason which I dont remember for the x domain to be half the sampling frequency I believe it has to do with aliasing but I am not sure. In order to normalise the amplitude values they are divided by N which leaves each of the frequency peaks at a height of 0.5 like in the regular fourier transform of a cosine but it is divided by 2 again for normalising.
 
-<img src="images/Ex2.png">
+<img src="images/Ex2.png" width="50%">
 
 
 ## Exercise 3: Two tones
@@ -57,11 +57,11 @@ There is a reason which I dont remember for the x domain to be half the sampling
 
  Which I then visualised 200 samples in the time domain:
 
- <img src="images/Ex3.1.png">
+ <img src="images/Ex3.1.png" width="50%">
 
  And the frequency amplitude plot shows the normalised weights of each frequency component in the sig signal. 2:1 ratio.
 
- <img src="images/Ex3.2.png"> 
+ <img src="images/Ex3.2.png" width="50%"> 
 
 
  ## Exercise 4: Two tones + noise
@@ -76,18 +76,18 @@ There is a reason which I dont remember for the x domain to be half the sampling
  plot(noisy(1:200));
  ```
 
- <img src="images/Ex4.1.png"> 
+ <img src="images/Ex4.1.png" width="50%"> 
 
 Then I plotted the frequency spectrum
 ```matlab
 plot_sec(noisy,10000);
 ```
 
- <img src="images/Ex4.2.png"> 
+ <img src="images/Ex4.2.png" width="50%"> 
 
  What I have learnt is that even though the time domain signal looks very different in comparison (noisy and no noise)
 
-  <img src="images/Ex4.3.png">
+  <img src="images/Ex4.3.png" width="50%">
 
   The fourier transform is still able to identify the importance of the main frequency components. Which means that is easier to analyse noisy signals in the frequency domain as well.
 
