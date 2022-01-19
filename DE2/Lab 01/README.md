@@ -118,3 +118,30 @@ However, when we check the projection of s1 in sig which is (s1 and s2) we find 
 
 ## Exercise 6: Using PyBench board as a spectrum analyser
 
+We used a 2kHz sine wave and yes it worked. Very impressive that it did it on real time.
+
+<p align="center">
+<img src="images/sig.jpg" width="50%">
+</p>
+You can see the peak in the middle which represents the 2kHz signal.
+
+
+## Extra challenges
+
+For the first challenge I modifies the sine_gen script and added another input which represents the phase.
+
+```matlab
+function [sig] = sine_gen2(amp,f, fs, T,phase)
+
+dt = 1/fs; %size of sampling times
+t = 0:dt:T; %array of Time from 0 to T in dt steps
+sig = amp*sin(2*pi*f*t + phase); %sine function
+
+end
+```
+
+I made this script where I varied the phase of the orange (s2) wave while keeping s1 constant and plotted the animated result :) I used the Animation.m file it requires signal_gen2.m to do it.
+
+<p align="center">
+<img src="images/Challenge_one.gif" width="50%">
+</p>
