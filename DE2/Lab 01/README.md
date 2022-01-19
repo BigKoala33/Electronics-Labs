@@ -140,8 +140,14 @@ sig = amp*sin(2*pi*f*t + phase); %sine function
 end
 ```
 
-I made this script where I varied the phase of the orange (s2) wave while keeping s1 constant and plotted the animated result :) I used the Animation.m file it requires signal_gen2.m to do it.
+I made this script where I varied the phase of the orange (s2) wave while keeping s1 constant and plotted the animated result :) I used the Animation.m file it requires signal_gen2.m to do it. (Animation.m)
 
 <p align="center">
 <img src="images/Challenge_one.gif" width="50%">
+</p>
+
+Then for the fourier one we just made a script that changed An over a range of values with different values of n and sum those weighted cosines together to obtain the aproximation of the square wave. (Animation2.m)
+
+<p align="center">
+<img src="images/Challenge_two.gif" width="50%">
 </p>
