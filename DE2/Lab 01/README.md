@@ -20,9 +20,9 @@ end
 ```
 
 The code was tested creating a wave of 400 Hz with amplitude of 1 and a sampling frequency of 10kHz over 1 second. Then the plot function was created and plotted the amplitude from the indexes 1 to 200 even though there is 10000 samples.
-
+<p align="center">
 <img src="images/Ex1.png" width="50%">
-
+</p>
 ## Exercise 2: Spectrum of the signal
 
 The function plot spec takes in a signal and a sampling time and produces a frequency amplitude plot
@@ -41,9 +41,9 @@ end
 ```
 
 There is a reason which I dont remember for the x domain to be half the sampling frequency I believe it has to do with aliasing but I am not sure. In order to normalise the amplitude values they are divided by N which leaves each of the frequency peaks at a height of 0.5 like in the regular fourier transform of a cosine but it is divided by 2 again for normalising.
-
+<p align="center">
 <img src="images/Ex2.png" width="50%">
-
+</p>
 
 ## Exercise 3: Two tones
  
@@ -56,13 +56,13 @@ There is a reason which I dont remember for the x domain to be half the sampling
  ```
 
  Which I then visualised 200 samples in the time domain:
-
+<p align="center">
  <img src="images/Ex3.1.png" width="50%">
-
+</p>
  And the frequency amplitude plot shows the normalised weights of each frequency component in the sig signal. 2:1 ratio.
-
+<p align="center">
  <img src="images/Ex3.2.png" width="50%"> 
-
+</p>
 
  ## Exercise 4: Two tones + noise
 
@@ -75,20 +75,20 @@ There is a reason which I dont remember for the x domain to be half the sampling
  ```matlab
  plot(noisy(1:200));
  ```
-
+<p align="center">
  <img src="images/Ex4.1.png" width="50%"> 
-
+</p>
 Then I plotted the frequency spectrum
 ```matlab
 plot_sec(noisy,10000);
 ```
-
+<p align="center">
  <img src="images/Ex4.2.png" width="50%"> 
-
+</p>
  What I have learnt is that even though the time domain signal looks very different in comparison (noisy and no noise)
-
+<p align="center">
   <img src="images/Ex4.3.png" width="50%">
-
+</p>
   The fourier transform is still able to identify the importance of the main frequency components. Which means that is easier to analyse noisy signals in the frequency domain as well.
 
   ## Exercise 5: Projection using dot product
