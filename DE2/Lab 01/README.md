@@ -9,27 +9,46 @@ This lab is called Introduction to Signal Processing with Matlab.
 ## Exercise 1: Sinusoidal signal generation.
 The function definition in matlab is function [] outputs equal to name of function(input1,input2,input3) and after a few paragraphs, **end**
 
-<img src="/images/snap1.jpg" width="500" height="250">
+```matlab
+function [sig] = sine_gen(amp,f, fs, T)
+
+dt = 1/fs; %size of sampling times
+t = 0:dt:T; %array of Time from 0 to T in dt steps
+sig = amp*sin(2*pi*f*t); %sine function
+
+end
+```
 
 The code was tested creating a wave of 400 Hz with amplitude of 1 and a sampling frequency of 10kHz over 1 second. Then the plot function was created and plotted the amplitude from the indexes 1 to 200 even though there is 10000 samples.
 
-<img src="/images/Ex1.png" width="500" height="250">
+<img src="images/Ex1.png">
 
 ## Exercise 2: Spectrum of the signal
 
 The function plot spec takes in a signal and a sampling time and produces a frequency amplitude plot
+```matlab
+function plot_spec(sig,fs)
 
-<img src="/images/Snap2.jpg" width="500" height="250">
+magnitude = abs(fft(sig)); %magnitude of every sample after fourier transform
+N = length(sig); %Number of samples
+df = fs/N; %Size of frequency samples
+f = 0:df:fs/2;  %Frequency array definition only up to half the sampling frequency because of aliasing? 
+Y = magnitude(1:length(f)); %Selection of FT values equal size as frequency array
+plot(f,2*Y/N); %plot times mag*2 and divide by number of samples?
+xlabel("Freq (Hz)");
+ylabel("Magnitude");
+end
+```
 
 There is a reason which I dont remember for the x domain to be half the sampling frequency I believe it has to do with aliasing but I am not sure. In order to normalise the amplitude values they are divided by N which leaves each of the frequency peaks at a height of 0.5 like in the regular fourier transform of a cosine but it is divided by 2 again for normalising.
 
-<img src="/images/Ex2.png" width="500" height="250">
+<img src="images/Ex2.png">
 
 
 ## Exercise 3: Two tones
  
  I created two signals as such:
- <img src="/images/Snap3.jpg" width="500" height="250">
+
  ```matlab
  s1 = sine_gen(1,400,10000,1);
  s2 = sine_gen(0.5,1000,10000,1);
@@ -38,11 +57,11 @@ There is a reason which I dont remember for the x domain to be half the sampling
 
  Which I then visualised 200 samples in the time domain:
 
- <img src="/images/Ex3.1.png" width="500" height="250">
+ <img src="images/Ex3.1.png">
 
  And the frequency amplitude plot shows the normalised weights of each frequency component in the sig signal. 2:1 ratio.
 
- <img src="/images/Ex3.2.png" width="500" height="250"> 
+ <img src="images/Ex3.2.png"> 
 
 
  ## Exercise 4: Two tones + noise
@@ -57,18 +76,18 @@ There is a reason which I dont remember for the x domain to be half the sampling
  plot(noisy(1:200));
  ```
 
- <img src="/images/Ex4.1.png" width="500" height="250"> 
+ <img src="images/Ex4.1.png"> 
 
 Then I plotted the frequency spectrum
 ```matlab
 plot_sec(noisy,10000);
 ```
 
- <img src="/images/Ex4.2.png" width="500" height="250"> 
+ <img src="images/Ex4.2.png"> 
 
  What I have learnt is that even though the time domain signal looks very different in comparison (noisy and no noise)
 
-  <img src="/images/Ex4.3.png" width="500" height="250">
+  <img src="images/Ex4.3.png">
 
   The fourier transform is still able to identify the importance of the main frequency components. Which means that is easier to analyse noisy signals in the frequency domain as well.
 
