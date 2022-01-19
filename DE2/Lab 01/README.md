@@ -1,0 +1,92 @@
+# Electronics 2-Lab 01
+
+<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Yellow-blue-circuit-MEng-EE.jpg" width="500" height="250">
+
+This folder contains all the documents regarding the first lab of Electronics 2.
+
+This lab is called Introduction to Signal Processing with Matlab.
+
+## Exercise 1: Sinusoidal signal generation.
+The function definition in matlab is function [] outputs equal to name of function(input1,input2,input3) and after a few paragraphs, **end**
+
+<img src="/images/snap1.jpg" width="500" height="250">
+
+The code was tested creating a wave of 400 Hz with amplitude of 1 and a sampling frequency of 10kHz over 1 second. Then the plot function was created and plotted the amplitude from the indexes 1 to 200 even though there is 10000 samples.
+
+<img src="/images/Ex1.png" width="500" height="250">
+
+## Exercise 2: Spectrum of the signal
+
+The function plot spec takes in a signal and a sampling time and produces a frequency amplitude plot
+
+<img src="/images/Snap2.jpg" width="500" height="250">
+
+There is a reason which I dont remember for the x domain to be half the sampling frequency I believe it has to do with aliasing but I am not sure. In order to normalise the amplitude values they are divided by N which leaves each of the frequency peaks at a height of 0.5 like in the regular fourier transform of a cosine but it is divided by 2 again for normalising.
+
+<img src="/images/Ex2.png" width="500" height="250">
+
+
+## Exercise 3: Two tones
+ 
+ I created two signals as such:
+ <img src="/images/Snap3.jpg" width="500" height="250">
+ ```matlab
+ s1 = sine_gen(1,400,10000,1);
+ s2 = sine_gen(0.5,1000,10000,1);
+ sig = s1 + s2;
+ ```
+
+ Which I then visualised 200 samples in the time domain:
+
+ <img src="/images/Ex3.1.png" width="500" height="250">
+
+ And the frequency amplitude plot shows the normalised weights of each frequency component in the sig signal. 2:1 ratio.
+
+ <img src="/images/Ex3.2.png" width="500" height="250"> 
+
+
+ ## Exercise 4: Two tones + noise
+
+ In order to create a noisy signal I did:
+ ```matlab
+ noisy = sig + randn(size(sig));
+ ```
+ which visualises 200 samples on the time domain using
+
+ ```matlab
+ plot(noisy(1:200));
+ ```
+
+ <img src="/images/Ex4.1.png" width="500" height="250"> 
+
+Then I plotted the frequency spectrum
+```matlab
+plot_sec(noisy,10000);
+```
+
+ <img src="/images/Ex4.2.png" width="500" height="250"> 
+
+ What I have learnt is that even though the time domain signal looks very different in comparison (noisy and no noise)
+
+  <img src="/images/Ex4.3.png" width="500" height="250">
+
+  The fourier transform is still able to identify the importance of the main frequency components. Which means that is easier to analyse noisy signals in the frequency domain as well.
+
+  ## Exercise 5: Projection using dot product
+Checking the orthogonality of different sine functions.
+
+  ```matlab
+  dot_product = dot(s1,s2);
+  ``` 
+The result of the dot product is **1.72e-13** which is matlab's way of saying 0.
+
+I created a new sine wave s3 of frequency 401 Hz
+```matlab
+s3 = sine_gen(1,401,10000,1);
+```
+And checked the dot product again between s1 and s3 which in this case was **-1.969e-10** which computationally is that but mathematically should be 0.
+
+However, when we check the projection of s1 in sig which is (s1 and s2) we find **5000** which is a non zero value showing there is a component of the function made of **s1**
+
+## Exercise 6: Using PyBench board as a spectrum analyser
+
