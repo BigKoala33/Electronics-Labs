@@ -3,7 +3,7 @@ clear all
 T0 = 1/fs;
 dt = 20e-3;
 N_ineach = dt/T0;
-rows = round(length(sig)/N_ineach +1);
+rows = rou nd(length(sig)/N_ineach +1);
 obj_size = rows*N_ineach;
 size_diff = obj_size-length(sig);
 M  = zeros(1,size_diff);
