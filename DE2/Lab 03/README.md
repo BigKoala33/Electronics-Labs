@@ -68,7 +68,7 @@ Superposition which is a combination of the two is given by:
 
 A system $$ S : X \to Y$$ where X and Y are sets of real number (but could be sets of signals).
 
-$$ \forall\  x_1, x_2 \in X\  \text{and} \ \forall \ a, b \ \in \rm I\!R  \ \ S(ax_1 + bx_2) = aS(x_1) + bS(x_2)$$
+$$ \forall\  x_1, x_2 \in X\  \text{and} \ \forall \ a, b \ \in \rm R  \ \ S(ax_1 + bx_2) = aS(x_1) + bS(x_2)$$
 
 If I pick to input values like 1 and 1.5 (x1 and x2) and two scaling factors like 1 and 0.5 (a and b) and input them into the equation we find the left hand side to be:
 
