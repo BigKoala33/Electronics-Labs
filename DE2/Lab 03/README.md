@@ -187,7 +187,7 @@ I kind of when ahead of the lab and generated the code for the automatic steps, 
 I worked out the gain for each frequency in db and plotted on the same plot as the theoretical frequency response
 
 <p align="center">
-<img src="images/T3.1f.png" width="50%">
+<img src="images/T3s.png" width="50%">
 </p>
 
 The shape is closely followed by the practical filter which is a great success however there seems to be some sort of offset but DC offets should not matter as the gain is a ratio and also it is worked out by using peak to peak voltages, perhaps it has to do with the non linearity of it. I will try with a smaller amplitude V to see it's effect. 

@@ -3,7 +3,7 @@ ports = serialportlist;
 pb = PyBench("COM7");
 max_v = 1.55 ;
 min_v = 1.45;
-N = 700;
+N = 140;
 f_sig = 3;
 output = zeros(19,3);
 figure()
