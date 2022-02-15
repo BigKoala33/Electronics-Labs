@@ -1,6 +1,5 @@
 # Electronics 2-Lab 02
 
-<img src="https://github.com/BigKoala33/Electronics-Labs/blob/main/Lab%201/Images/Yellow-blue-circuit-MEng-EE.jpg" width="500" height="250">
 
 This folder contains all the documents regarding the second lab of Electronics 2.
 

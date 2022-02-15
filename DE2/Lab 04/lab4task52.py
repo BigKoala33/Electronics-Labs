@@ -1,7 +1,10 @@
+from cmath import pi
 import pyb
 from pyb import LED, ADC, Pin
 from oled_938 import OLED_938
+from mpu6050 import MPU6050
 
+imu = MPU6050(1,False)
 b_LED = LED(4)
 pot = ADC(Pin("X11"))
 
@@ -16,16 +19,19 @@ oled = OLED_938(
 )
 oled.poweron()
 oled.init_display()
-
-oled.draw_text(23,0,"Hello world!")
 tic = pyb.millis()
-
+pnew =0
 while True:
-    b_LED.toggle()
+    a = int(imu.get_acc()[1])
     toc = pyb.millis()
-    oled.draw_text(0,20,"Delay time:{:6.3f}sec".format((toc-tic)*0.001))
-    oled.draw_text(0,40, "POTSK reading{:5d}".format(pot.read()))
-    tic = pyb.millis()
+    g = int((imu.get_gyro()[1] * ((toc-tic)/1000)))
+    pnew = (0.8*(pnew + g) + (1 - 0.8)*a)
+    oled.draw_line(32,32,int(a*180/pi),1,1)
+    oled.draw_line(86,32,int(pnew*180/3.14),1,1)
     oled.display()
-    delay = pyb.rng()%1000
-    pyb.delay(delay)
+    tic = pyb.millis()
+    pyb.delay(100)
+    oled.clear()
+
+
+    

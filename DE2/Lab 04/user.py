@@ -1,1 +1,1 @@
-execfile('lab4task4.py')
+execfile('lab4task52.py')

@@ -37,3 +37,6 @@ while True:
     oled.line(64,0,reading,64,"yellow")
     oled.display()
     pyb.delay(100)
+    oled.clear()
+
+    
